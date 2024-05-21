@@ -16,3 +16,4 @@ boto3-stubs[essential]
 lz4
 rich
 wandb
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
