@@ -20,3 +20,5 @@ laspy
 nibabel
 aioboto3 == 10.4.0; python_version >= '3.7' and sys_platform != 'win32'
 nest_asyncio; python_version >= '3.7' and sys_platform != 'win32'
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
